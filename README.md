@@ -20,3 +20,6 @@ Probably incomplete summary of what I did to get the Windows source to build:
 * replace NDIIO/Shaders/Private/NDIIOShaders.usf with [this](https://forums.newtek.com/threads/unreal-engine-5-1-ndi-plugin-ndiio-crash-report.167047/post-1637021)
 * drag /usr/local/lib/libndi.dylib into the xcode project under Games/yourproject and copy, add it to all build targets
 * possibly have to add the headers from the SDK download to the project's build settings under "Header Search Paths"
+
+
+It should be possible to make these changes in the original plugin source code so it would build on all three platforms. But I don't know how.

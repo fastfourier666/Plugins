@@ -2,6 +2,10 @@
  
 this is a binary only of my attempt at porting the Windows NDI plugin for Unreal 5.1
 
+
+https://user-images.githubusercontent.com/33075175/207424232-1888b3d1-40d2-405b-9dbb-75ff191dd910.mp4
+
+
 OS: Monterey 12.5
 
 XCode: 14.1
@@ -23,3 +27,4 @@ Probably incomplete summary of what I did to get the Windows source to build:
 
 
 It should be possible to make these changes in the original plugin source code so it would build on all three platforms. But I don't know how.
+

@@ -1,0 +1,52 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "3.2",
+	"FriendlyName": "NDI IO Plugin",
+	"Description": "Exposes Core NDI Support for integration into Unreal Engine Applications",
+	"Category": "Virtual Production",
+	"CreatedBy": "NewTek®",
+	"CreatedByURL": "https://www.ndi.tv",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NDIIO",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Mac"
+			]
+		},
+		{
+			"Name": "NDIIOEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Mac"
+			]
+		},
+		{
+			"Name": "NDIIOShaders",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MediaIOFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
+			"Enabled": true
+		}
+	]
+}
